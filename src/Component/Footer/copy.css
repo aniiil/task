@@ -1,0 +1,14 @@
+.copy-foot {
+  height: 220px;
+  background-color: rgb(72, 71, 71);
+}
+.foot-text {
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+}
+.copybox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

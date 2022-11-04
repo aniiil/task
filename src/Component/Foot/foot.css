@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con-foot {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+}
+.left-box {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.imgbox {
+  display: flex;
+  align-items: center;
+  padding-right: 35px;
+  /* background-color: rgb(239, 30, 152); */
+}
+.half {
+  width: 50%;
+  height: 100%;
+}
+
+.left-img {
+  width: 460px;
+  height: 556px;
+  margin-right: -150px;
+  position: relative;
+  
+}
+.half {
+  width: 200px;
+  background-color: rgb(239, 30, 152);
+
+  justify-content: flex-end;
+  display: flex;
+}
+.right-box {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+}
+.right-min {
+  display: flex;
+  flex: 50% !important;
+  flex-direction: column;
+  padding-top: 100px;
+  text-align: center;
+}
+.right-input {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+.right-head {
+  color: white;
+  font-size: 48px;
+}
+.rightpara {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 18px;
+}
+.r-mail {
+  background-color: transparent;
+  color: gray;
+  font-size: 22px;
+  border: none;
+  margin-right: 25px;
+  padding: 0 15px;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  outline: none;
+}
+.r-mail:hover{
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+}
+.input-btn {
+  background-color: rgb(207, 38, 109);
+  padding: 8px 25px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+.input-btn:hover {
+  color: rgb(207, 38, 109);
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.lower-di {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+
+}
+.low1 {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+
+  text-align: center;
+}
+.icon-box{
+    color: rgb(207, 38, 109) ;
+    padding: 0 30px;
+    
+    text-align: right;
+}
+.ic{
+    font-size: 35px;
+    padding-right:  5px;
+   
+}
+.low-head {
+  font-size: 20px;
+  padding:  0 30px;
+  color: #fff;
+  text-align: right;
+  margin-bottom: 40px;
+}
+.low-head2{
+  font-size: 20px;
+  padding:  0 30px;
+  color: #fff;
+  text-align: right;
+  margin-bottom: 23px;
+}
+.low-para {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: right;
+  padding: 0 30px;
+}
+.low-para2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: right;
+    padding: 10px ;
+    padding-right: 30px;
+
+
+  }
+.low2 {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  padding-left: 25px;
+  text-align: left;
+}
+
